@@ -1,0 +1,80 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+4:400,500,800,&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu-Bold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Ubuntu";
+	src: url("../fonts/Ubuntu-Regular.woff2") format("woff2"), url("../fonts/Ubuntu-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "Source Serif 4";
+}
+a.page-1 {
+	font-size: 30px;
+	font-weight: 800;
+	text-decoration: underline;
+	color: blue;
+}
+.header {
+}
+.main {
+}
+.main-title {
+	font-family: "Montserrat";
+
+	font-style: italic;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 2;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 5px -10px 6px rgba(0, 0, 0, 0.8);
+}
+.main-start {
+}
+.text {
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	word-spacing: 5px;
+}
+.main-img {
+}
+.text2 {
+	color: green;
+}
+.title {
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.soda {
+	font-size: 20px;
+	font-weight: 500;
+}
+.soda-text {
+	text-indent: 15px;
+	word-spacing: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.list {
+	text-transform: uppercase;
+}
+.soda-text2 {
+	color: greenyellow;
+	text-align: right;
+	letter-spacing: 7px;
+}
